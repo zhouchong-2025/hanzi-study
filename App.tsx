@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Pencil, Play, Search, GraduationCap } from 'lucide-react';
+import { useState, useRef, useEffect } from 'react';
+import { Pencil, Play, GraduationCap } from 'lucide-react';
 import HanziBoard, { HanziBoardHandle } from './components/HanziBoard';
 import InfoCard from './components/InfoCard';
 import { fetchCharacterMetadata } from './services/geminiService';

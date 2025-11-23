@@ -1,6 +1,9 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { CharacterData } from "../types";
 
+// Declare process to satisfy TypeScript since this variable is injected by Vite at build time
+declare const process: any;
+
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export const fetchCharacterMetadata = async (character: string): Promise<CharacterData> => {
