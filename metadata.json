@@ -1,0 +1,5 @@
+{
+  "name": "周翀汉字笔画学习器",
+  "description": "An interactive Chinese character stroke order learning application using Hanzi Writer and Gemini API for rich character analysis.",
+  "requestFramePermissions": []
+}
